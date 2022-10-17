@@ -15,6 +15,7 @@ ingredients.map(ingredient => {
   element.textContent = ingredient;
   element.classList.add("item")
   
-  itemEl.push(element);
+  itemEl.push(ingredients);
   listEl.append(element);
+  return element;
 });
